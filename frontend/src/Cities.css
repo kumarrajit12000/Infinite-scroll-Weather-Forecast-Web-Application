@@ -1,0 +1,9 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search {
+    width: 60%;
+    height: 50px;
+}
