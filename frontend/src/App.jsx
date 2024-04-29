@@ -1,14 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cities from './Cities';
 import CityWeather from './CityWeather';
 
 const App = () => {
   return (
     <BrowserRouter>
      <Routes>
-        <Route path='/' element={< Cities/>}></Route>
-        <Route path='/CityWeather/:cityname' element={< CityWeather/>}></Route>
+        <Route path='/' element={< CityWeather/>}></Route>
      </Routes>
     </BrowserRouter>
   )
